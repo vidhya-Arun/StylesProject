@@ -75,7 +75,13 @@ body {
 .container,
 .grid {
   margin: 0 auto;
-  width: 960px;
+ /* width: 960px;*/
+}
+@media only screen and (min-width:600px){
+  .container{
+    width: 960px;
+  }
+
 }
 .container {
   padding-left: 30px;
@@ -490,4 +496,9 @@ textarea {
 }
 .register-group textarea {
   height: 78px;
+}
+
+/* Register page form validation */
+.divName p{
+  color: red;
 }
